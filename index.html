@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     
+    <link rel="stylesheet" href="styles.css">
+    <title>JavaScript Modal</title>
+</head>
+<body>
+
+    <div class="modal-container">
+        <div class="modal">
+            <span class="modal__close-btn" accesskey="r" role="remove modal">X</span>
+            <header class="modal__header">
+                <h1 class="color-p modal__title">Off the charts!</h1>
+            </header>
+            <section id="modal__body-container">
+                <div class="modal__completed-icon">
+                   Checked
+                </div>
+                <div class="modal__progress-container">
+                    <h2 class="color-p">
+                        Basic  JavaScript
+                    </h2>
+                    <div class="modal__progress">
+                        <span class="modal__progress-text">
+                            100% complete
+                        </span>
+                    </div>
+                </div>
+            </section>
+            <footer class="modal__footer">
+                <a href="#" class="modal__btn">
+                    Submit and go to the next challenge 
+                    <kbd>(Ctrl + Enter)</kbd>
+                </a>
+                <a href="#" class="modal__btn">
+                    Download my solution
+                </a>
+            </footer>
+        </div>
+    </div>
+
+    <script src="index.js" defer></script>
+</body>
+</html>
